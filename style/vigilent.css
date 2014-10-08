@@ -1,0 +1,10 @@
+.graph-container {
+    background-color: #EEE;
+    height: auto;
+    min-height: 100px;
+    border: 2px solid #FFF;
+}
+
+.page-title {
+    text-align: center;
+}
