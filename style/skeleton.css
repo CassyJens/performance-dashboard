@@ -1,0 +1,25 @@
+html,
+body,
+.main-content {
+    height: 100%;
+}
+
+header {
+    height: 15%;
+}
+
+#graphs {
+    height: 70%;
+    min-height: 300px; /* the container for the graphs should never be less than 300px tall */
+    border-top: 1px solid light-gray;
+    border-bottom: 1px solid light-gray;
+    margin: 10px 0;
+}
+
+.graph-container {
+    height: 50%;
+}
+
+footer {
+    height: 15%;
+}
