@@ -7,8 +7,8 @@
     }
  */
 window.odometerOptions = {
-  duration: 1000, // Change how long the javascript expects the CSS animation to take
-  theme: 'minimal' // Specify the theme (if you have more than one theme css file on the page)
+  duration: 3000, // Change how long the javascript expects the CSS animation to take
+  theme: 'plaza' // Specify the theme (if you have more than one theme css file on the page)
 };
 
 var createOdometer = function (options) {
@@ -24,7 +24,7 @@ var createOdometer = function (options) {
     setInterval(function(){
         currentVal += options.increment
         od.update(currentVal)
-    }, 2000);
+    }, 3000);
 
     return od;
 }
