@@ -4,18 +4,28 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="Cassy Jens">
+
         <!-- style -->
+        <!-- vendor -->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link href="./style/vigilent.css" type="text/css" rel="stylesheet">
+        <link href="./style/vendor/odometer-theme-plaza.css" type="text/css" rel="stylesheet">
         <link href="./style/vendor/contour.css" type="text/css" rel="stylesheet">
+        <!-- app -->
+        <link href="./style/vigilent.css" type="text/css" rel="stylesheet">
+
         <!-- script -->
+        <!-- vendor -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js" charset="utf-8"></script>
         <script type="text/javascript" src="./scripts/vendor/contour.js"></script>
-        <script type="text/javascript" src="./scripts/graphs.js"></script>
+        <script type="text/javascript" src="./scripts/vendor/odometer.min.js"></script>
+        <!-- app -->
+        <!-- <script type="text/javascript" src="./scripts/graphs.js"></script> -->
+        <script type="text/javascript" src="./scripts/odometer.js"></script>
+        <script type="text/javascript" src="./scripts/app.js"></script>
         <title> Vigilent Impact </title>
     </head>
     <body>
@@ -28,8 +38,8 @@
             <section id="graphs row">
                 <div class="graph-container col-xs-6">
                     <h3> Energy Savings </h3>
-                    <div class="energy-savings-counter">
-                        TODO counter
+                    <div id="energy-savings-od" class="odometer">
+
                     </div>
                 </div>
                 <div class="graph-container col-xs-6">
