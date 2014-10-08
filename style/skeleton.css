@@ -2,6 +2,8 @@ html,
 body,
 .main-content {
     height: 100%;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 100;
 }
 
 header {
@@ -11,8 +13,6 @@ header {
 #graphs {
     height: 70%;
     min-height: 300px; /* the container for the graphs should never be less than 300px tall */
-    border-top: 1px solid light-gray;
-    border-bottom: 1px solid light-gray;
     margin: 10px 0;
 }
 
