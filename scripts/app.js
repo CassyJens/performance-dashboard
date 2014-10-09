@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var energySavingsOd = createOdometer({
       el: '#energy-savings-od',
-      startingVal: 485686544,
+      startingVal: 486255844,
       increment: 15.2
   });
 

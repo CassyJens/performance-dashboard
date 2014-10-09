@@ -23,7 +23,7 @@ body,
 .graph-container {
   height: 50%;
   /* odometer font-sizes and line-heights are in em -- increase/decrease this to modify odomoter size */
-  font-size: 30px;
+  font-size: 25px;
 }
 
 footer {
