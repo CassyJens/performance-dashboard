@@ -6,8 +6,12 @@ body,
   font-weight: 100;
 }
 
-header {
-  height: 15%;
+.logo-header {
+  height: 10%;
+}
+
+.graphs-header {
+  height: 5%;
 }
 
 #graphs {

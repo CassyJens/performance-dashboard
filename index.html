@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="./style/vendor/odometer-theme-plaza.css" type="text/css" rel="stylesheet">
     <link href="./style/vendor/contour.css" type="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- app -->
     <link href="./style/vigilent.css" type="text/css" rel="stylesheet">
     <link href="./style/skeleton.css" type="text/css" rel="stylesheet">
@@ -28,33 +29,42 @@
     <title> Vigilent Impact </title>
   </head>
   <body>
+    <header class="logo-header">
+      <div class="container">
+        <div class="row">
+          <img src="./images/vigilent-small.png" class="logo" />
+        </div>
+      </div>
+    </header>
     <div class="container main-content">
       <header class="row">
-        <h1 class="col-xs-6 col-xs-offset-3 page-title">
+        <h1 class="col-xs-12 page-title">
           Vigilent Impact
         </h1>
       </header>
       <section id="graphs" class="row">
-        <div class="graph-container col-xs-6">
-          <h3> Energy Savings </h3>
+        <div class="graph-container col-sm-6">
+          <i class="fa fa-lightbulb-o main-graph-icon"></i>
+          <h3 class="graph-title"> Energy Savings </h3>
           <div id="energy-savings-od" class="odometer">
 
           </div>
         </div>
-        <div class="graph-container col-xs-6">
-          <h3> CO<sub>2</sub> Savings </h3>
-        <div id="c02-savings-od" class="odometer">
+        <div class="graph-container col-sm-6">
+          <i class="fa fa-car main-graph-icon"> </i>
+          <h3 class="graph-title"> CO<sub>2</sub> Savings </h3>
+          <div id="c02-savings-od" class="odometer">
 
+          </div>
         </div>
-        </div>
-        <div class="graph-container col-xs-6">
-          <h3> Assets </h3>
+        <div class="graph-container col-sm-6">
+          <h3 class="graph-title"> Assets </h3>
           <div class="assets-graph graph">
 
           </div>
         </div>
-        <div class="graph-container col-xs-6">
-          <h3> Another graph </h3>
+        <div class="graph-container col-sm-6">
+          <h3 class="graph-title"> Another graph </h3>
         </div>
       </section>
       <footer>

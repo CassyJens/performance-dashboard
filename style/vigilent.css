@@ -1,3 +1,22 @@
+html {
+  font-size: 16px;
+}
+
+.graph-title {
+  text-align: left;
+}
+
+.logo-header {
+  width: 100%;
+  background-color: #0f75e8;
+  height: 50px;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 15px;
+}
+
 .graph-container {
   background-color: #26ac01;
   border: 2px solid #FFF;
@@ -10,4 +29,11 @@
 
 .contour-chart .axis text {
   fill: #DDD;
+}
+
+.main-graph-icon {
+  color: #FC5404;
+  float: right;
+  padding: 15px 0;
+  font-size: 2.5rem; /* 40px/16px */
 }
