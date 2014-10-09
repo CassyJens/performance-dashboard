@@ -5,9 +5,10 @@ $(document).ready(function () {
       increment: 15.2
   });
 
-	/*var CO2SavingsOd = createOdometer({
-        el: '#CO2-savings-od',
-        startingVal: 295827,
-        increment: 4.7
-    });*/
-})
+  var CO2SavingsOd = createOdometer({
+      el: '#c02-savings-od',
+      startingVal: 295827,
+      increment: 4.7
+  });
+
+});

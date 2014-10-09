@@ -15,7 +15,7 @@ var createOdometer = function (options) {
   var el = document.querySelector(options.el);
   var currentVal = options.startingVal;
 
-  od = new Odometer({
+  var od = new Odometer({
     el: el,
     value: currentVal,
     format: '(,ddd)'
