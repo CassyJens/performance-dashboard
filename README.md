@@ -5,8 +5,9 @@ A simple interface for visualizing extrapolated data via odometers and graphs.
 
 ## Tools
 Visualization tools:
-* Odometer - http://github.hubspot.com/odometer/
-* Contour - http://forio.com/contour
+* Odometers - http://github.hubspot.com/odometer/
+* Graphs - http://forio.com/contour
+* Icons - http://fortawesome.github.io/Font-Awesome/
 
 ## Style
 Coding conventions are currently based off of:
