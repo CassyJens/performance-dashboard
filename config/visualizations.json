@@ -1,0 +1,20 @@
+{
+  "Energy Savings": {
+    "icon": "fa fa-lightbulb-o",
+    "odometers": {
+      "Energy Savings": {
+        "start": 485686484,
+        "increment": 15.2,
+        "format": "(,ddd)"
+      }
+    }
+  },
+  "CO2 Savings": {
+    "icon": "fa fa-car",
+    "odometers": {
+      "start": 295827,
+      "increment": 4.7,
+      "format": "(,ddd)"
+    }
+  }
+}
