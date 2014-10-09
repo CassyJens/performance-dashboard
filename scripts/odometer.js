@@ -12,19 +12,19 @@ window.odometerOptions = {
 };
 
 var createOdometer = function (options) {
-    var el = document.querySelector(options.el);
-    var currentVal = options.startingVal;
+  var el = document.querySelector(options.el);
+  var currentVal = options.startingVal;
 
-    od = new Odometer({
-      el: el,
-      value: currentVal,
-      format: '(,ddd)'
-    });
+  od = new Odometer({
+    el: el,
+    value: currentVal,
+    format: '(,ddd)'
+  });
 
-    setInterval(function(){
-        currentVal += options.increment
-        od.update(currentVal)
-    }, 3000);
+  setInterval(function(){
+    currentVal += options.increment
+    od.update(currentVal)
+  }, 3000);
 
-    return od;
+  return od;
 }

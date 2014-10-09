@@ -1,13 +1,13 @@
 .graph-container {
-    background-color: #26ac01;
-    border: 2px solid #FFF;
-    color: #FFF;
+  background-color: #26ac01;
+  border: 2px solid #FFF;
+  color: #FFF;
 }
 
 .page-title {
-    text-align: center;
+  text-align: center;
 }
 
 .contour-chart .axis text {
-    fill: #DDD;
+  fill: #DDD;
 }

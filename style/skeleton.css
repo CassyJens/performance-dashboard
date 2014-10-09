@@ -1,27 +1,27 @@
 html,
 body,
 .main-content {
-    height: 100%;
-    font-family: "Helvetica Neue", sans-serif;
-    font-weight: 100;
+  height: 100%;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
 }
 
 header {
-    height: 15%;
+  height: 15%;
 }
 
 #graphs {
-    height: 70%;
-    min-height: 300px; /* the container for the graphs should never be less than 300px tall */
-    margin: 10px 0;
+  height: 70%;
+  min-height: 300px; /* the container for the graphs should never be less than 300px tall */
+  margin: 10px 0;
 }
 
 .graph-container {
-    height: 50%;
-    /* odometer font-sizes and line-heights are in em -- increase/decrease this to modify odomoter size */
-    font-size: 30px;
+  height: 50%;
+  /* odometer font-sizes and line-heights are in em -- increase/decrease this to modify odomoter size */
+  font-size: 30px;
 }
 
 footer {
-    height: 15%;
+  height: 15%;
 }
