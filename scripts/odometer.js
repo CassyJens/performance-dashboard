@@ -8,7 +8,7 @@
  */
 window.odometerOptions = {
   duration: 3000, // Change how long the javascript expects the CSS animation to take
-  theme: 'plaza' // Specify the theme (if you have more than one theme css file on the page)
+  theme: 'minimal' // Specify the theme (if you have more than one theme css file on the page)
 };
 
 var createOdometer = function (options) {

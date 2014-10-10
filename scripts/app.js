@@ -5,10 +5,16 @@ $(document).ready(function () {
       increment: 15.2
   });
   
+    var kwOd = createOdometer({
+      el: '#kw-od',
+      startingVal: 22195,
+      increment: 0.0
+  });
+  
   var bladeserver = createOdometer({
       el: '#bladeserver-od',
-      startingVal: 2265,
-      increment: 0.000007
+      startingVal: 90594,
+      increment: 0.0
   });
 
 
