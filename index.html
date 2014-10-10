@@ -13,6 +13,7 @@
     <!-- app -->
     <link href="./style/vigilent.css" type="text/css" rel="stylesheet">
     <link href="./style/skeleton.css" type="text/css" rel="stylesheet">
+    <link href="./style/odometer-overwrite.css" type="text/css" rel="stylesheet">
     <!-- script -->
     <!-- vendor -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -44,61 +45,40 @@
       </header>
       <section id="graphs" class="row">
         <div class="graph-container col-sm-6">
-          <i class="fa fa-lightbulb-o main-graph-icon"></i>
+          <i class="fa fa-lightbulb-o main-graph-icon"> </i>
           <h3 class="graph-title"> Energy Savings </h3>
-          <div id="energy-savings-od" class="odometer">
-
-          </div>
-		      kWh, that is
-		      <div id="kw-od" class="odometer">
-
-          </div>
-		      kw,
-     		  <p></p>
-		      enough to power
-		      <div id="bladeserver-od" class="odometer">
-
-          </div>
-		      HP DL385L Gen8 servers
-		    </div>
+          <p>
+            <div id="energy-savings-od" class="odometer"> </div>
+  		      kWh, <br /> that is
+  		      <div id="kw-od" class="odometer"> </div>
+  		      kw, <br /> enough to power
+  		      <div id="bladeserver-od" class="odometer"> </div>
+  		      HP DL385L Gen8 servers
+		      </p>
+        </div>
         <div class="graph-container col-sm-6">
           <i class="fa fa-car main-graph-icon"> </i>
           <h3 class="graph-title"> CO<sub>2</sub> savings </h3>
-          <div id="c02-savings-od" class="odometer">
-
-          </div>
-		      kg
-		      <p></p>
-		      <div id="caryears-savings-od" class="odometer">
-
-		      </div>
+          <div id="c02-savings-od" class="odometer"> </div>
+		      kg <br />
+		      <div id="caryears-savings-od" class="odometer"> </div>
 		      car-years of CO<sub>2</sub> saved
         </div>
         <div class="graph-container col-sm-6">
-			    <i class="fa fa-building-o main-graph-icon"></i>
+			    <i class="fa fa-building-o main-graph-icon"> </i>
 			    <h3 class="graph-title"> Assets Under Management</h3>
-			    <div id="sites-od" class="odometer">
-
-    			</div>
-		      sites
-		      <p></p>
-		      <div id="sqft-od" class="odometer">
-
-          </div>
-		      sq. ft. white floor
-		      <p></p>
-		      <div id="acunit-od" class="odometer">
-
-          </div>
+			    <div id="sites-od" class="odometer"> </div>
+		      sites <br />
+		      <div id="sqft-od" class="odometer"> </div>
+		      sq. ft. white floor <br />
+		      <div id="acunit-od" class="odometer"> </div>
 		      cooling units
         </div>
         <div class="graph-container col-sm-6">
           <i class="fa fa-line-chart main-graph-icon"> </i>
 		      <h3 class="graph-title"> Data </h3>
 		      In a year, we measure
-		      <div id="data-od" class="odometer">
-
-          </div>
+		      <div id="data-od" class="odometer"> </div>
 		      billion points
         </div>
       </section>
