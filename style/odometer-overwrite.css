@@ -1,3 +1,8 @@
 .odometer {
   margin-bottom: 10px;
 }
+
+.odometer-formatting-mark {
+  color: #26AC01;
+  font-weight: 300;
+}
